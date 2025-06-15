@@ -1,4 +1,4 @@
-# 🗨️ WhatsChat
+# WhatsChat 🗨️
 **Connect Instantly, Communicate Securely, Empower Collaboration**
 
 ![Last Commit](https://img.shields.io/github/last-commit/Usama-Codez/WhatsChat)
