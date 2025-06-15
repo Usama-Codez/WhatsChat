@@ -58,7 +58,7 @@ Watch the full walkthrough and technical explanation of WhatsChat on YouTube:
 
 ---
 
-## 🔧 Features
+### 🔧 Features
 
 - ✅ Communication via WebSockets
 - ✅ Encrypted Message transfers
@@ -66,8 +66,6 @@ Watch the full walkthrough and technical explanation of WhatsChat on YouTube:
 - ✅ Chat with text, emojis, and file support
 - ✅ Peer authentication using password or key
 - ✅ Auto messages file sync and file history
-- ✅ Join/Leave/Query/Publish operations
-- ✅ Multiple uploads/downloads simultaneously
 - ✅ Peer can act as both client and server
 
 ---
@@ -85,15 +83,15 @@ Ensure the following are installed:
 
 ## Installation
 Follow the steps to install and run WhatsChat Locally:
+1. Clone the repository
 ```bash
-# 1. Clone the repository
 git clone https://github.com/Usama-Codez/WhatsChat
 ```
-# 2. Navigate to the project directory
+2. Navigate to the project directory
 ```bash
 cd WhatsChat
 ```
-# 3. Install dependencies
+3. Install dependencies
 ```bash
 npm install
 ```
