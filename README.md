@@ -1,13 +1,23 @@
-# WhatsChat 🗨️
+# 🗨️ WhatsChat
 **Connect Instantly, Communicate Securely, Empower Collaboration**
+
+[![Watch Demo on YouTube](https://img.shields.io/badge/Watch%20Demo-YouTube-red?style=for-the-badge&logo=youtube)](https://www.youtube.com/watch?v=-XuZeSZWVXA)
 
 ![Last Commit](https://img.shields.io/github/last-commit/Usama-Codez/WhatsChat)
 ![Repo Top Language](https://img.shields.io/github/languages/top/Usama-Codez/WhatsChat)
 ![Languages Count](https://img.shields.io/github/languages/count/Usama-Codez/WhatsChat)
 
 ---
-## Demo Video:
-[![YouTube Video](https://img.shields.io/badge/Watch%20Demo-YouTube-red?style=for-the-badge&logo=youtube)](https://www.youtube.com/watch?v=-XuZeSZWVXA&t=312s)
+
+## 📹 Demo
+
+Watch the full walkthrough and technical explanation of WhatsChat on YouTube:
+
+[![Watch the Demo](https://img.youtube.com/vi/-XuZeSZWVXA/0.jpg)](https://www.youtube.com/watch?v=-XuZeSZWVXA)
+
+> 🔗 [Click here to view the full demo](https://www.youtube.com/watch?v=-XuZeSZWVXA)
+
+---
 
 ## 🚀 Overview
 **WhatsChat** is a web app platform, for peer-to-peer communication built with Node.js, Express, and Socket.io. It supports:
@@ -74,7 +84,7 @@ Ensure the following are installed:
 ---
 
 ## Installation
-
+Follow the steps to install and run WhatsChat Locally:
 ```bash
 # 1. Clone the repository
 git clone https://github.com/Usama-Codez/WhatsChat
@@ -107,15 +117,30 @@ Run tests using:
 npm test
 ```
 
-## 🗂️ Project Structure
-WhatsChat/
-├── server.js           # Central server
-├── client.js           # Peer client code
-├── /p2p-files/         # Shared file directory per peer
-├── /public/            # HTML/CSS UI
-├── /utils/             # Encryption, Sync, and Auth utilities
-├── package.json
-└── README.md
+## Encryption & Decryption
+WhatsChat ensures secure communication by encrypting:
+
+- Chat messages
+
+- User authentication tokens
+
+Encryption Features:
+
+- End-to-end encryption between peers. For encryption I have used AES and RSA algorithms combination.
+
+- Decryption is automatically done on the receiving side
+
+Unauthorized access is denied without proper key exchange
+
+🔎 You can find the encryption logic in:
+
+```bash
+utils/
+├── encryption.js       # Core encryption/decryption logic
+├── auth.js             # Key exchange and peer validation
+```
+🧠 More detailed explanation is available in the video demo:
+🔗 [Watch encryption explained ->](https://www.youtube.com/watch?v=-XuZeSZWVXA)
 
 ## 🔒 Security Features
 1. 🔐 End-to-End Encryption for text messages
