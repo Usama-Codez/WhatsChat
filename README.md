@@ -6,6 +6,8 @@
 ![Languages Count](https://img.shields.io/github/languages/count/Usama-Codez/WhatsChat)
 
 ---
+## Demo Video:
+[![YouTube Video](https://img.shields.io/badge/Watch%20Demo-YouTube-red?style=for-the-badge&logo=youtube)](https://www.youtube.com/watch?v=-XuZeSZWVXA&t=312s)
 
 ## 🚀 Overview
 **WhatsChat** is a web app platform, for peer-to-peer communication built with Node.js, Express, and Socket.io. It supports:
